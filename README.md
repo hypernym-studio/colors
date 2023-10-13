@@ -5,7 +5,7 @@ Ultra lightweight color utilities for console.
 <sub><a href="https://github.com/hypernym-studio/colors">Repository</a> | <a href="https://www.npmjs.com/package/@hypernym/colors">Package</a> | <a href="https://github.com/hypernym-studio/colors/releases">Releases</a> | <a href="https://github.com/hypernym-studio/colors/discussions">Discussions</a></sub>
 
 ```sh
-npm i -D @hypernym/colors
+npm i @hypernym/colors
 ```
 
 ## Features
