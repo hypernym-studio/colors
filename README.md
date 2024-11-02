@@ -1,12 +1,24 @@
-# @hypernym/colors
+<h1 align="center">Hypernym Colors</h1>
 
-Ultra lightweight color utilities for console.
+<p align="center">Ultra lightweight color utilities for console.</p>
 
-<sub><a href="https://github.com/hypernym-studio/colors">Repository</a> | <a href="https://www.npmjs.com/package/@hypernym/colors">Package</a> | <a href="https://github.com/hypernym-studio/colors/releases">Releases</a> | <a href="https://github.com/hypernym-studio/colors/discussions">Discussions</a></sub>
+<p align="center">
+  <a href="https://github.com/hypernym-studio/colors">Repository</a>
+  <span>✦</span>
+  <a href="https://www.npmjs.com/package/@hypernym/colors">Package</a>
+  <span>✦</span>
+  <a href="https://github.com/hypernym-studio/colors/releases">Releases</a>
+  <span>✦</span>
+  <a href="https://github.com/hypernym-studio/colors/discussions">Discussions</a>
+</p>
 
-```sh
-npm i @hypernym/colors
-```
+<br>
+
+<pre align="center">
+  pnpm add @hypernym/colors
+</pre>
+
+<br>
 
 ## Features
 
@@ -24,12 +36,12 @@ console.log(bold(green('hypernym')), cyan('colors'))
 
 ## Community
 
-Feel free to use the official [discussions](https://github.com/hypernym-studio/colors/discussions) for any additional questions.
+Feel free to ask questions or share new ideas.
+
+Use the official [discussions](https://github.com/hypernym-studio/colors/discussions) to get involved.
 
 ## License
 
-Developed in 🇭🇷 Croatia
+Developed in 🇭🇷 Croatia, © Hypernym Studio.
 
 Released under the [MIT](LICENSE.txt) license.
-
-© Hypernym Studio
