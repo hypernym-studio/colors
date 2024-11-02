@@ -10,12 +10,12 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./src/types/index.d.ts",
-      "import": "./src/index.mjs"
+      "types": "./dist/types/index.d.mts",
+      "import": "./dist/index.mjs"
     }
   },
   "files": [
-    "src"
+    "dist"
   ],
   "keywords": [
     "cli",
@@ -29,17 +29,38 @@
     "esm"
   ],
   "scripts": {
-    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint -c .config/eslint.config.js .",
-    "lint:fix": "ESLINT_USE_FLAT_CONFIG=true eslint -c .config/eslint.config.js --fix .",
-    "format": "prettier --config .config/prettier.config.js --write ."
+    "build": "hyperbundler",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "prepublishOnly": "pnpm build"
+  },
+  "sideEffects": false,
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "peerDependencies": {
+    "@types/node": ">=20.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   },
   "devDependencies": {
-    "@hypernym/eslint-config": "^2.0.2",
-    "@hypernym/prettier-config": "^2.0.2",
-    "eslint": "^8.51.0",
-    "prettier": "^3.0.3"
-  },
-  "engines": {
-    "node": ">=v18.0.0"
+    "@hypernym/bundler": "^0.14.0",
+    "@hypernym/eslint-config": "^3.5.1",
+    "@hypernym/prettier-config": "^3.2.0",
+    "@hypernym/tsconfig": "^2.4.0",
+    "@types/node": "^22.8.6",
+    "eslint": "^9.14.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
   }
 }
