@@ -1,4 +1,4 @@
-<h1 align="center">Hypernym Colors</h1>
+<h1 align="center">Colors</h1>
 
 <p align="center">Ultra lightweight color utilities for console.</p>
 
