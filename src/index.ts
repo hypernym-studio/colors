@@ -1,4 +1,4 @@
-import type { Color } from '@/types'
+export type Color = (v: string | number) => string
 
 const _ = `\x1B[`
 export const reset: Color = (v) => `${_}0m${v}${_}0m`
