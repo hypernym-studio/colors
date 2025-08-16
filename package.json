@@ -51,13 +51,13 @@
     }
   },
   "devDependencies": {
-    "@hypernym/bundler": "^0.14.3",
-    "@hypernym/eslint-config": "^3.6.1",
-    "@hypernym/prettier-config": "^3.2.4",
+    "@hypernym/bundler": "^0.14.4",
+    "@hypernym/eslint-config": "^3.6.3",
+    "@hypernym/prettier-config": "^3.2.6",
     "@hypernym/tsconfig": "^2.6.1",
-    "@types/node": "^22.15.17",
-    "eslint": "^9.26.0",
-    "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "@types/node": "^22.17.2",
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
   }
 }
