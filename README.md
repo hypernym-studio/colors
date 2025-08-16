@@ -29,16 +29,12 @@
 ## Usage
 
 ```ts
-import { bold, green, cyan } from '@hypernym/colors'
+import { bold, green, cyan, ... } from '@hypernym/colors'
 
 console.log(bold(green('hypernym')), cyan('colors'))
 ```
 
-## Community
-
-Feel free to ask questions or share new ideas.
-
-Use the official [discussions](https://github.com/hypernym-studio/colors/discussions) to get involved.
+See a list of all available [colors](./src/index.ts).
 
 ## License
 
