@@ -13,8 +13,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.mts",
-      "import": "./dist/index.mjs"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "files": [
@@ -51,13 +51,13 @@
     }
   },
   "devDependencies": {
-    "@hypernym/bundler": "^0.14.4",
-    "@hypernym/eslint-config": "^3.6.3",
-    "@hypernym/prettier-config": "^3.2.6",
-    "@hypernym/tsconfig": "^2.6.1",
-    "@types/node": "^22.17.2",
-    "eslint": "^9.33.0",
+    "@hypernym/bundler": "^0.30.4",
+    "@hypernym/eslint-config": "^3.6.5",
+    "@hypernym/prettier-config": "^3.2.9",
+    "@hypernym/tsconfig": "^2.6.3",
+    "@types/node": "^24.8.1",
+    "eslint": "^9.37.0",
     "prettier": "^3.6.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
