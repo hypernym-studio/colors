@@ -4,11 +4,11 @@
 
 <p align="center">
   <a href="https://github.com/hypernym-studio/colors">Repository</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://www.npmjs.com/package/@hypernym/colors">Package</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://github.com/hypernym-studio/colors/releases">Releases</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://github.com/hypernym-studio/colors/discussions">Discussions</a>
 </p>
 
